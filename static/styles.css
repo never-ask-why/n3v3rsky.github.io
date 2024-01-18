@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #90f190;
+    color: #f3f3f3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    opacity: 0;
+}
+ 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    transition: opacity 1s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #32333a;
+    padding: 30px;
+    transform: scale(0.8);
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+h1 {
+    color: #61dafb;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #61dafb;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #f2d2f1;
+    margin-top: 20px;
+}
