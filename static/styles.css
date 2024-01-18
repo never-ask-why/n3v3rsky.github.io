@@ -18,7 +18,7 @@ body {
     transition: opacity 1s ease-in-out;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    background-color: #32333a;
+    background-color: #ffffff;
     padding: 30px;
     transform: scale(0.8);
     animation: fadeIn 1s ease-out forwards;
