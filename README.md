@@ -1,1 +1,1 @@
-We Are Comming Soon with exicted cybersecurity contents for begginers
+We are coming soon with exciting cybersecurity content for beginners
